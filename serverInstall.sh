@@ -24,9 +24,7 @@ apt update
 
 # Installs a list of applications and files some essential 
 # Look for what to add or remove
-apt install webmin htop python3 lbzip2 build-essential nmap git curl bind9 dnsmasq duplicity gnupg ncftp
- unzip cifs-utils nfs-common moreutils checkinstall screen software-properties-common open-vm-tools
- lynx openjdk-8-jre -y
+apt install webmin htop python3 lbzip2 build-essential nmap git curl bind9 dnsmasq duplicity gnupg ncftp unzip cifs-utils nfs-common moreutils checkinstall screen software-properties-common open-vm-tools lynx openjdk-8-jre -y
 
 # Install Sonic media server http to 4040
 wget https://s3-eu-west-1.amazonaws.com/subsonic-public/download/subsonic-6.1.5.deb
